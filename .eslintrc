@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "no-underscore-dangle": "off"
+  }
+}
