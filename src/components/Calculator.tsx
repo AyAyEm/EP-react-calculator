@@ -24,7 +24,7 @@ export function Calculator() {
       setExpression(newData.expression);
     }
 
-    if (newData.result) {
+    if (typeof newData.result !== 'undefined') {
       data.result = newData.result;
       setResult(newData.result);
     }
